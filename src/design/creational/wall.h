@@ -6,9 +6,9 @@
 namespace patterns {
 class Wall : public MapSite {
  public:
-  Wall();
+  Wall() = default;
 
-  virtual void Enter();
+  virtual void Enter() {};
 };
 } // namespace patterns
 #endif
