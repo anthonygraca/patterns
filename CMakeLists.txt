@@ -17,4 +17,6 @@ FetchContent_MakeAvailable(googletest)
 enable_testing()
 include(CTest)
 
+include_directories("src/")
+
 add_subdirectory(src)
