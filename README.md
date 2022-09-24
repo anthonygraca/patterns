@@ -86,6 +86,14 @@ f. Sanity Check \
 g. Watchdog \
 h. Safety Executive
 
+| Pattern          | UML                                            | Code                                                                 | Tests |
+|------------------|------------------------------------------------|----------------------------------------------------------------------|-------|
+| Abstract Factory | [:heavy_check_mark:](img/abstract-factory.png) | [:heavy_check_mark:](src/creational/abstract-factory/maze-factory.h) |       |
+| Builder          | [:heavy_check_mark:](img/builder.png)          |                                                                      |       |
+| Factory Method   | [:heavy_check_mark:](img/factory-method.png)   |                                                                      |       |
+| Prototype        | [:heavy_check_mark:](img/prototype.png)        |                                                                      |       |
+| Singleton        |                                                |                                                                      |       |
+
 ## Creational 
 Creational design patterns abstract the instantiation process. They help make a 
 system independnent of how its objects are created, composed, and represented. A 
