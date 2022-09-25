@@ -86,13 +86,13 @@ f. Sanity Check \
 g. Watchdog \
 h. Safety Executive
 
-| Pattern          | UML                                            | Code                                                                 | Tests |
-|------------------|------------------------------------------------|----------------------------------------------------------------------|-------|
-| Abstract Factory | [:heavy_check_mark:](img/abstract-factory.png) | [:heavy_check_mark:](src/creational/abstract-factory/maze-factory.h) |       |
-| Builder          | [:heavy_check_mark:](img/builder.png)          |                                                                      |       |
-| Factory Method   | [:heavy_check_mark:](img/factory-method.png)   |                                                                      |       |
-| Prototype        | [:heavy_check_mark:](img/prototype.png)        |                                                                      |       |
-| Singleton        |                                                |                                                                      |       |
+| Pattern                               | UML                                            | Code                                                                 | Tests |
+|---------------------------------------|------------------------------------------------|----------------------------------------------------------------------|-------|
+| [Abstract Factory](#abstract-factory) | [:heavy_check_mark:](img/abstract-factory.png) | [:heavy_check_mark:](src/creational/abstract-factory/maze-factory.h) |       |
+| Builder                               | [:heavy_check_mark:](img/builder.png)          | [:heavy_check_mark:](src/creational/builder/maze-builder.h)          |       |
+| Factory Method                        | [:heavy_check_mark:](img/factory-method.png)   |                                                                      |       |
+| Prototype                             | [:heavy_check_mark:](img/prototype.png)        |                                                                      |       |
+| Singleton                             |                                                |                                                                      |       |
 
 ## Creational 
 Creational design patterns abstract the instantiation process. They help make a 
@@ -112,6 +112,9 @@ objects without specifying their concrete classes.
 - a system should be configured with one of multiple families of products.
 - a family of related product objects is designed to be used together, and you need to enforce this constraint.
 - you want to provide a class library of products, and you want to reveal just their interfaces, not their implementations.
+
+### Builder
+![](img/builder.png)
 
 ## References 
 * Gamma, Erich, et al. - Design Patterns: Elements of Reusable Object-Oriented 
