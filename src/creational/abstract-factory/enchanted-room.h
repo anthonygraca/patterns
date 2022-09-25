@@ -6,8 +6,8 @@
 namespace patterns {
 class EnchantedRoom : public Room {
  public:
-  EnchantedRoom(int room_number, Spell* spell)
-      : room_number_{room_number}, spell_{spell} {
+  EnchantedRoom(int n, Spell* spell)
+      : Room(n), room_number_{n}, spell_{spell} {
   }
  private:
   int room_number_{-1};

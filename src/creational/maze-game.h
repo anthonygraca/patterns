@@ -4,6 +4,7 @@
 #include <gsl/gsl>
 
 #include "creational/abstract-factory/maze-factory.h"
+#include "creational/builder/MazeBuilder.h"
 #include "creational/map-site.h"
 #include "creational/maze.h"
 
@@ -52,6 +53,27 @@ class MazeGame {
     r2->SetSide(Direction::West, door);
 
     return maze;
+  }
+
+  Maze* CreateMaze(MazeBuilder& builder) {
+    builder.BuildMaze();
+
+    builder.BuildRoom(1);
+    builder.BuildRoom(2);
+    builder.BuildDoor(1,2);
+
+    return builder.GetMaze();
+  }
+
+  Maze* CreateComplexMaze(MazeBuilder& builder) {
+    builder.BuildMaze();
+
+    builder.BuildRoom(1);
+    // ...
+    builder.BuildRoom(10001);
+    builder.BuildDoor(1,10001);
+
+    return builder.GetMaze();
   }
 };
 } // namespace patterns

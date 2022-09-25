@@ -6,7 +6,8 @@
 namespace patterns {
 class RoomWithBomb : public Room {
  public:
-  RoomWithBomb(int n) : room_number_{n} {}
+  RoomWithBomb(int n) : Room(n), room_number_{n} {
+  }
 
  private:
   int room_number_{-1};
