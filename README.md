@@ -87,6 +87,28 @@ e. Montior-Actuator \
 f. Sanity Check \
 g. Watchdog \
 h. Safety Executive
+10. Test Strategy Patterns \
+a. Recorded Test \
+b. Scripted Test \
+c. Data-Driven Test \
+d. Test Automation Framework \
+e. Minimal Fixture \
+f. Standard Fixture \
+g. Fresh Fixture
+11. xUnit Basics Patterns \
+a. Test Method \
+b. Four-Phase Test \
+c. Assertion Method \
+d. Assertion Message \
+e. Testcase Class \
+f. Test Runner \
+g. Testcase Object \
+h. Test Suite Object \
+i. Test Discovery \
+j. Test Enumeration \
+k. Test Selection 
+12. Fixture Setup Patterns \
+a. In-line Setup 
 
 | Pattern                                            | UML                                            | Code                                                                 | Tests |
 |----------------------------------------------------|------------------------------------------------|----------------------------------------------------------------------|-------|
