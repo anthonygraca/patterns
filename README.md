@@ -8,7 +8,7 @@ of the C++ code in this project. Code is compiled with a C++20 compiler.
 #### Normal Usage
 1. `cmake -S. -Bbuild` to create a separate build folder to isolate generate 
 cmake build files. 
-2. `cmake --build build --parallel && ctest --test-dir build --parallel` to 
+2. `cmake --build build --parallel 4 && ctest --test-dir build --parallel 4` to 
 compile source and run tests.  
 
 ## Table of Contents
